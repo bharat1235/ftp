@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Node.JS File Upload</title>
+  </head>
+  <body>
+    <form class="fileupload" action="upload" method="post" enctype="multipart/form-data">
+      <h1>Upload File Here</h1>
+      <input type="file" name="upfile" value="">
+      <input type="submit" />
+    </form>
+<h1>Download Files From Here.....Click Download!</h1>
+    <button id="btn_download">Download File</button>
+    <script type="file">
+    ('#btn_download').click(function(){
+      window.open('/download');
+
+    });
+
+
+
+    </script>
+  </body>
+</html>
